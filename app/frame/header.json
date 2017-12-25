@@ -1,0 +1,278 @@
+{
+    "element": {
+        "style": {
+            "background-color": "rgba(255, 255, 255, 0.1)"
+        }
+    },
+    "code": "Stream",
+    "runFunction": "run()",
+    "runOnBuild": true,
+    "appObject": {
+        "format": "webm",
+        "video": {
+            "width": 640,
+            "height": 480,
+            "facingMode": "environment"
+        },
+        "audio": true,
+        "duration": 1000
+    },
+    "arrayMenuHorizontal": [
+        {
+            "arrayLeftHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "runOnBuild": true,
+                                    "appObject": {},
+                                    "code": "GSM",
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "20px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassMaterialDesign"
+                                            },
+                                            "animationEffect": {
+                                                "element": {},
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "runOnBuild": true,
+                                                                "code": "GSM",
+                                                                "runFunction": "getStrength(this)",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "arrayItem": [
+                                {
+                                    "runOnBuild": true,
+                                    "appObject": {},
+                                    "code": "Wifi",
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "20px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassMaterialDesign"
+                                            },
+                                            "animationEffect": {
+                                                "element": {},
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "runOnBuild": true,
+                                                                "code": "Wifi",
+                                                                "runFunction": "getStrength(this)",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "arrayCenterHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "display": "block",
+                                            "padding": "5px",
+                                            "textAlign": "center"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "style": {
+                                                "color": "black"
+                                            }
+                                        },
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassFuturisticI",
+                                                "style": {
+                                                    "width": "100%",
+                                                    "font-size": "20px",
+                                                    "padding": [
+                                                        0
+                                                    ]
+                                                }
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "style": {
+                                                        "display": "block"
+                                                    }
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "Time",
+                                                                "runFunction": "getTime(this)",
+                                                                "runOnBuild": true,
+                                                                "appObject": {},
+                                                                "code": "Time",
+                                                                "element": {}
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "arrayRightHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "runOnBuild": true,
+                                    "appObject": {},
+                                    "code": "GPS",
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "20px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassFontAwesome"
+                                            },
+                                            "animationEffect": {
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "runOnBuild": true,
+                                                                "appObject": {},
+                                                                "code": "GPS",
+                                                                "runFunction": "run(this)",
+                                                                "element": {}
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "20px"
+                                        }
+                                    },
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassFontAwesome"
+                                            },
+                                            "animationEffect": {
+                                                "element": {},
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "link": "link0",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

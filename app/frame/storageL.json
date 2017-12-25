@@ -1,0 +1,67 @@
+[
+    {
+        "language":"pt",
+        "title":"Armazenamento",
+        "back":"Menu",
+        "useStates":"Status",
+        "format":"Formatar dispositivo",
+        "statusTitle":"Status",
+        "storage":"Armazenamento",
+        "dimension":"MB",
+        "used":"Usado",
+        "free":"Livre",
+        "reserved":"Reservado"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Armazenamento",
+        "back":"Menu",
+        "useStates":"Status",
+        "format":"Formatar dispositivo",
+        "statusTitle":"Status",
+        "storage":"Armazenamento",
+        "dimension":"MB",
+        "used":"Usado",
+        "free":"Livre",
+        "reserved":"Reservado"
+    },
+    {
+        "language":"en",
+        "title":"Storage",
+        "back":"Menu",
+        "useStates":"Status",
+        "format":"Format device",
+        "statusTitle":"Status",
+        "storage":"Storage",
+        "dimension":"MB",
+        "used":"Used",
+        "free":"Free",
+        "reserved":"Reserved"
+    },
+    {
+        "language":"en-US",
+        "title":"Storage",
+        "back":"Menu",
+        "useStates":"Status",
+        "format":"Format device",
+        "statusTitle":"Status",
+        "storage":"Storage",
+        "dimension":"MB",
+        "used":"Used",
+        "free":"Free",
+        "reserved":"Reserved"
+    },
+    {
+        "language":"en-GB",
+        "title":"Storage",
+        "back":"Menu",
+        "useStates":"Status",
+        "format":"Format device",
+        "statusTitle":"Status",
+        "storage":"Storage",
+        "dimension":"MB",
+        "used":"Used",
+        "free":"Free",
+        "reserved":"Reserved"
+    }
+]

@@ -1,0 +1,37 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Bateria",
+        "back":"Config",
+        "battery1":"Bateria 1",
+        "battery2":"Bateria 2"
+    },
+    {
+        "language":"pt",
+        "title":"Bateria",
+        "back":"Config",
+        "battery1":"Bateria 1",
+        "battery2":"Bateria 2"
+    },
+    {
+        "language":"en-US",
+        "title":"Battery",
+        "back":"Config",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2"
+    },
+    {
+        "language":"en-GB",
+        "title":"Battery",
+        "back":"Config",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2"
+    },
+    {
+        "language":"en",
+        "title":"Battery",
+        "back":"Config",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2"
+    }
+]

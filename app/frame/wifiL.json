@@ -1,0 +1,52 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Rede wifi",
+        "back":"Conect",
+        "connectedTo":"Conectado a",
+        "networks":"Redes",
+        "enable":"Habilitar",
+        "serverPassword":"Senha",
+        "connect":"Conectar"
+    },
+    {
+        "language":"pt",
+        "title":"Rede wifi",
+        "back":"Conect",
+        "connectedTo":"Conectado a",
+        "networks":"Redes",
+        "enable":"Habilitar",
+        "serverPassword":"Senha",
+        "connect":"Conectar"
+    },
+    {
+        "language":"en-US",
+        "title":"Wifi network",
+        "back":"Connect",
+        "connectedTo":"Connected to",
+        "networks":"Networks",
+        "enable":"Enable",
+        "serverPassword":"Password",
+        "connect":"Connect"
+    },
+    {
+        "language":"en-GB",
+        "title":"Wifi network",
+        "back":"Connect",
+        "connectedTo":"Connected to",
+        "networks":"Networks",
+        "enable":"Enable",
+        "serverPassword":"Password",
+        "connect":"Connect"
+    },
+    {
+        "language":"en",
+        "title":"Wifi network",
+        "back":"Connect",
+        "connectedTo":"Connected to",
+        "networks":"Networks",
+        "enable":"Enable",
+        "serverPassword":"Password",
+        "connect":"Connect"
+    }
+]

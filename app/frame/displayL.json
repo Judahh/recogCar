@@ -1,0 +1,32 @@
+[
+    {
+        "language":"pt",
+        "title":"Tela",
+        "back":"Config",
+        "diplayTime":"Tempo do Display"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Tela",
+        "back":"Config",
+        "diplayTime":"Tempo do Display"
+    },
+    {
+        "language":"en",
+        "title":"Display",
+        "back":"Config",
+        "diplayTime":"Display Time"
+    },
+    {
+        "language":"en-US",
+        "title":"Display",
+        "back":"Config",
+        "diplayTime":"Display Time"
+    },
+    {
+        "language":"en-GB",
+        "title":"Display",
+        "back":"Config",
+        "diplayTime":"Display Time"
+    }
+]

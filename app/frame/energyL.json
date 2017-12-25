@@ -1,0 +1,47 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Energia",
+        "back":"Menu",
+        "subtitle":"Informações das baterias",
+        "battery1":"Bateria 1",
+        "battery2":"Bateria 2",
+        "uptime":"Tempo de atividade: "
+    },
+    {
+        "language":"pt",
+        "title":"Energia",
+        "back":"Menu",
+        "subtitle":"Informações das baterias",
+        "battery1":"Bateria 1",
+        "battery2":"Bateria 2",
+        "uptime":"Tempo de atividade: "
+    },
+    {
+        "language":"en-US",
+        "title":"Energy",
+        "back":"Menu",
+        "subtitle":"Battery information",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2",
+        "uptime":"Uptime: "
+    },
+    {
+        "language":"en-GB",
+        "title":"Energy",
+        "back":"Menu",
+        "subtitle":"Battery information",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2",
+        "uptime":"Uptime: "
+    },
+    {
+        "language":"en",
+        "title":"Energy",
+        "back":"Menu",
+        "subtitle":"Battery information",
+        "battery1":"Battery 1",
+        "battery2":"Battery 2",
+        "uptime":"Uptime: "
+    }
+]

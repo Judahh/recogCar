@@ -1,0 +1,37 @@
+[
+    {
+        "language":"pt",
+        "title":"Conectividade",
+        "back":"Config",
+        "wifi":"Wi-fi",
+        "mobile": "Dados Móveis"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Conectividade",
+        "back":"Config",
+        "wifi":"Wi-fi",
+        "mobile": "Dados Móveis"
+    },
+    {
+        "language":"en",
+        "title":"Connectivity",
+        "back":"Config",
+        "wifi":"Wi-fi",
+        "mobile": "Mobile"
+    },
+    {
+        "language":"en-US",
+        "title":"Connectivity",
+        "back":"Config",
+        "wifi":"Wi-fi",
+        "mobile": "Mobile"
+    },
+    {
+        "language":"en-GB",
+        "title":"Connectivity",
+        "back":"Config",
+        "wifi":"Wi-fi",
+        "mobile": "Mobile"
+    }
+]

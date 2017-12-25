@@ -1,0 +1,37 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Idioma",
+        "back":"Config",
+        "langTitle":"Selecione o idioma",
+        "languageName":"Português - Brasil"
+    },
+    {
+        "language":"pt",
+        "title":"Idioma",
+        "back":"Config",
+        "langTitle":"Selecione o idioma",
+        "languageName":"Português"
+    },
+    {
+        "language":"en-US",
+        "title":"Language",
+        "back":"Config",
+        "langTitle":"Select the language",
+        "languageName":"English - USA"
+    },
+    {
+        "language":"en-GB",
+        "title":"Language",
+        "back":"Config",
+        "langTitle":"Select the language",
+        "languageName":"English - GB"
+    },
+    {
+        "language":"en",
+        "title":"Language",
+        "back":"Config",
+        "langTitle":"Select the language",
+        "languageName":"English"
+    }
+]

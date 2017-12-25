@@ -1,0 +1,57 @@
+[
+    {
+        "language":"pt-BR",
+        "title":"Servidor",
+        "back":"Config",
+        "serverIP":"IP do Servidor",
+        "serverPassword":"Senha",
+        "tcpPort":"Porta TCP",
+        "udpPort":"Porta UDP",
+        "clean":"Apagar",
+        "test":"Testar"
+    },
+    {
+        "language":"pt",
+        "title":"Servidor",
+        "back":"Config",
+        "serverIP":"IP do Servidor",
+        "serverPassword":"Senha",
+        "tcpPort":"Porta TCP",
+        "udpPort":"Porta UDP",
+        "clean":"Apagar",
+        "test":"Testar"
+    },
+    {
+        "language":"en-US",
+        "title":"Server",
+        "back":"Config",
+        "serverIP":"Server IP",
+        "serverPassword":"Password",
+        "tcpPort":"TCP port",
+        "udpPort":"UDP port",
+        "clean":"Clean",
+        "test":"Test"
+    },
+    {
+        "language":"en-GB",
+        "title":"Server",
+        "back":"Config",
+        "serverIP":"Server IP",
+        "serverPassword":"Password",
+        "tcpPort":"TCP port",
+        "udpPort":"UDP port",
+        "clean":"Clean",
+        "test":"Test"
+    },
+    {
+        "language":"en",
+        "title":"Server",
+        "back":"Config",
+        "serverIP":"Server IP",
+        "serverPassword":"Password",
+        "tcpPort":"TCP port",
+        "udpPort":"UDP port",
+        "clean":"Clean",
+        "test":"Test"
+    }
+]

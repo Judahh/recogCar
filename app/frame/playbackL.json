@@ -1,0 +1,32 @@
+[
+    {
+        "language":"pt",
+        "title":"Playback",
+        "back":"Menu",
+        "files":"Arquivos"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Playback",
+        "back":"Menu",
+        "files":"Arquivos"
+    },
+    {
+        "language":"en",
+        "title":"Playback",
+        "back":"Menu",
+        "files":"Files"
+    },
+    {
+        "language":"en-US",
+        "title":"Playback",
+        "back":"Menu",
+        "files":"Files"
+    },
+    {
+        "language":"en-GB",
+        "title":"Playback",
+        "back":"Menu",
+        "files":"Files"
+    }
+]

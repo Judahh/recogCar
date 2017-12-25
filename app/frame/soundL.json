@@ -1,0 +1,42 @@
+[
+    {
+        "language":"pt",
+        "title":"Áudio",
+        "back":"Config",
+        "outputVolume":"Volume de saída",
+        "inputVolume":"Volume de entrada",
+        "keyboardSound":"Sons de teclado"
+    },
+    {
+        "language":"pt-BR",
+        "title":"Áudio",
+        "back":"Config",
+        "outputVolume":"Volume de saída",
+        "inputVolume":"Volume de entrada",
+        "keyboardSound":"Sons de teclado"
+    },
+    {
+        "language":"en",
+        "title":"Sound",
+        "back":"Config",
+        "outputVolume":"Output volume",
+        "inputVolume":"Input volume",
+        "keyboardSound":"Keyboard sound"
+    },
+    {
+        "language":"en-US",
+        "title":"Sound",
+        "back":"Config",
+        "outputVolume":"Output volume",
+        "inputVolume":"Input volume",
+        "keyboardSound":"Keyboard Sound"
+    },
+    {
+        "language":"en-GB",
+        "title":"Sound",
+        "back":"Config",
+        "outputVolume":"Output volume",
+        "inputVolume":"Input volume",
+        "keyboardSound":"Keyboard Sound"
+    }
+]

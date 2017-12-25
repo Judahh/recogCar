@@ -1,0 +1,189 @@
+{
+    "element": {
+        "style": {
+            "background-color": "rgba(255, 255, 255, 0.1)"
+        }
+    },
+    "runOnBuild": true,
+    "appObject": {},
+    "code": "Keyboard",
+    "arrayMenuHorizontal": [
+        {
+            "arrayLeftHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "special": {
+                                            "tabindex":"menu"
+                                        },
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "40px"
+                                        }
+                                    },
+                                    "arrayRouter": [
+                                        {
+                                            "link": "menu"
+                                        }
+                                    ],
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassIcon"
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "className": "ClassPulse"
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "Y",
+                                                                "link": "link0",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "arrayCenterHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "special": {
+                                            "tabindex":"home"
+                                        },
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "40px"
+                                        }
+                                    },
+                                    "arrayRouter": [
+                                        {
+                                            "link": "home"
+                                        }
+                                    ],
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon"
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassFontAwesome"
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "className": "ClassPulse"
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "link": "link0",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "arrayRightHolder": [
+                {
+                    "arrayDivisor": [
+                        {
+                            "arrayItem": [
+                                {
+                                    "element": {
+                                        "special": {
+                                            "tabindex":"camera"
+                                        },
+                                        "style": {
+                                            "vertical-align": "-webkit-baseline-middle",
+                                            "color": "black",
+                                            "mix-blend-mode": "difference",
+                                            "opacity": "0.9",
+                                            "padding": "5px",
+                                            "font-size": "40px"
+                                        }
+                                    },
+                                    "arrayRouter": [
+                                        {
+                                            "link": "camera"
+                                        }
+                                    ],
+                                    "colorEffect": {
+                                        "element": {
+                                            "className": "ClassNeon",
+                                            "style": {
+                                                "padding": "5px",
+                                                "font-size": "30px"
+                                            }
+                                        },
+                                        "colorEffect": "test",
+                                        "font": {
+                                            "element": {
+                                                "className": "ClassFontAwesome"
+                                            },
+                                            "animationEffect": {
+                                                "element": {
+                                                    "className": "ClassPulse"
+                                                },
+                                                "animationSubEffect": {
+                                                    "arrayAnimationSubEffectHolder": [
+                                                        {
+                                                            "information": {
+                                                                "information": "",
+                                                                "link": "link1",
+                                                                "opacity": 1
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
