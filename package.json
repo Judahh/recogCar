@@ -52,7 +52,7 @@
     "@types/chai": "^4.0.10",
     "@types/mocha": "^2.2.44",
     "backapijh": "0.2.39-beta7",
-    "backappjh": "0.2.13",
+    "backappjh": "0.2.17",
     "chai": "^4.1.2",
     "d3": "4.12.0",
     "diskusage": "^0.2.4",
