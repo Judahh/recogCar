@@ -4,9 +4,10 @@ import { Wifi } from './../wifi/wifi';
 import { Disk } from './../disk/disk';
 import { Parsers } from './../parser/parsers';
 import { Identification } from './identification';
-import { Handler, Event, Operation } from "flexiblepersistence";
+import { Handler, Event, Operation } from 'flexiblepersistence';
 // import { Camera } from './../camera/camera';
 
+import * as openalpr from 'node-openalpr';
 import * as uptime from 'os-uptime';
 import * as  svgCaptcha from 'svg-captcha';
 import * as isOnline from 'is-online';
@@ -30,6 +31,8 @@ export class HardwareHandler {
         this.gSM = new GSM(this.parsers.getParser(process.env.GSM_AT_SERIAL_PORT), process.env.GSM_AT_COMMAND_SIGNAL, process.env.GSM_AT_COMMAND_TYPE, parseInt(process.env.GSM_AT_COMMAND_DELAY, 10), this.handler);
         this.wifi = new Wifi(parseInt(process.env.WIFI_REFRESH_DELAY, 10), this.handler);
         this.disk = new Disk(this.handler);
+        openalpr.Start();
+        this.identify('/Users/Judah/Desktop/test.jpg');
         // HANDLER SAMPLE
         // this.handler.addEvent(new Event(Operation.add, 'sample', 0));
         // this.handler.readArray('samples',(error, result: Array<any>)=>{});
@@ -46,6 +49,13 @@ export class HardwareHandler {
 
     public static getIdentification() {
         return HardwareHandler.identification;
+    }
+
+    public identify(path) {
+        console.log(openalpr.IdentifyLicense(path, function (error, output) {
+            let results = output.results;
+            console.log('results:', results);
+        }));
     }
 
     public getSpace() {
@@ -105,7 +115,7 @@ export class HardwareHandler {
     }
 
     public getCaptcha(callback?) {
-        let color: boolean = (process.env.CAPTCHA_COLOR == '1');
+        let color: boolean = (process.env.CAPTCHA_COLOR === '1');
         let captchaOptions = {
             size: this.getRandomInt(process.env.CAPTCHA_SIZE_MIN, process.env.CAPTCHA_SIZE_MAX),
             ignoreChars: process.env.CAPTCHA_IGNORE_CHARS,
@@ -113,10 +123,10 @@ export class HardwareHandler {
             color: color,
             background: this.getRandomColor(process.env.CAPTCHA_background_MIN, process.env.CAPTCHA_background_MAX)
         };
-       
+
         let captcha = svgCaptcha.create(captchaOptions);
         // console.log('captcha', captcha);
-        if (callback != undefined && callback != null) {
+        if (callback !== undefined && callback != null) {
             callback(captcha);
         }
     }
