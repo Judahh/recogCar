@@ -15,11 +15,12 @@ export class Parsers {
         return Parsers.instance;
     }
 
-    public getParser(serialPort, timeout?): Parser {
+    public getParser(serialPort, timeout?): Parser { 
+        console.log('serialPort', serialPort);
         serialPort = serialPort.replace(/\s/g, '');
-        for (var index = 0; index < this.parsers.length; index++) {
+        for (let index = 0; index < this.parsers.length; index++) {
             let parser = this.parsers[index];
-            if (parser.getSerialPort() == serialPort) {
+            if (parser.getSerialPort() === serialPort) {
                 if (timeout) {
                     parser.setTimeout(timeout);
                 }
