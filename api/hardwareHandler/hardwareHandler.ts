@@ -2,7 +2,6 @@ import { GPS } from './../gPS/gPS';
 import { GSM } from './../gSM/gSM';
 import { Wifi } from './../wifi/wifi';
 import { Disk } from './../disk/disk';
-import { I2C } from './../i2c/i2c';
 import { Parsers } from './../parser/parsers';
 import { Identification } from './identification';
 import { Handler, Event, Operation } from "flexiblepersistence";
@@ -38,11 +37,7 @@ export class HardwareHandler {
         // this.handler.readOne('samples', 0,(error, result: Array<any>)=>{});
         // this.getCaptcha();
         this.appSubscribers = {};
-        try {
-            let i2c = new I2C(0x77);
-        } catch (error) {
-            console.error(error);
-        }
+
     }
 
     public init() {
