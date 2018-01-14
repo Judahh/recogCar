@@ -222,13 +222,23 @@ export class Stream extends AppObject {
     }
 
     private captuteStream(component, stream) {
-        if (this.canvas = undefined) {
+        if (this.canvas === undefined) {
             this.canvas = document.createElement('canvas');
+            this.canvas.id = 'canvasTEMP';
+            let body = document.getElementsByTagName('body')[0];
+            body.appendChild(this.canvas);
+            // this.canvas.width = component.getElement().widthOffset;
+            // this.canvas.height = component.getElement().heightOffset;
         }
-        let context2D = this.canvas.getContext('2d');
-        context2D.drawImage(component, 0, 0);
+        // console.log('width', component.getElement().width);
+        // console.log('height', component.getElement().height);
+        // console.log('widthOffset', component.getElement().widthOffset);
+        // console.log('heightOffset', component.getElement().heightOffset);
+        let canvas: HTMLCanvasElement = <HTMLCanvasElement> document.getElementById('canvasTEMP');
+        let context2D = canvas.getContext('2d');
+        context2D.drawImage(component.getElement(), 0, 0);
         // get the canvas content as image data
-        let imageData = context2D.getImageData(0, 0, component.width(), component.height());
+        let imageData = context2D.getImageData(0, 0, component.getElement().width, component.getElement().height);
 
         this.disk.uploadImage(imageData);
         this.captuteStream(component, stream);
