@@ -7,6 +7,7 @@ declare var AudioContext: any;
 export class Stream extends AppObject {
     private static instance: Stream;
     private stream;
+    private canvas;
     private format: string;
     private video: any;
     private audio: boolean;
@@ -127,6 +128,7 @@ export class Stream extends AppObject {
     public startRecording() {
         console.log('Start Record!!!');
         let _self = this;
+        // _self.postFrameToServer(_self.stream);
         _self.streamRecorder = new MediaRecorder(_self.stream, {
             mimeType: ('video/' + _self.format)
         });
@@ -188,6 +190,17 @@ export class Stream extends AppObject {
         _self.disk.uploadVideo(data);
     }
 
+    // public postFrameToServer(stream) {
+    //     // console.log('Post Video to Server!!!');
+    //     let _self = this;
+    //     let data = {
+    //         name: new Date(),
+    //         video: videoblob,
+    //         format: _self.format
+    //     };
+    //     _self.disk.uploadVideo(data);
+    // }
+
     public getStream() {
         return this.stream;
     }
@@ -205,5 +218,19 @@ export class Stream extends AppObject {
     public streamView(component, stream) {
         console.log('STREAMVIEW!!!');
         (<any>(<ComponentVideo>component).getElement()).src = window.URL.createObjectURL(stream);
+        this.captuteStream(component, stream);
+    }
+
+    private captuteStream(component, stream) {
+        if (this.canvas = undefined) {
+            this.canvas = document.createElement('canvas');
+        }
+        let context2D = this.canvas.getContext('2d');
+        context2D.drawImage(component, 0, 0);
+        // get the canvas content as image data
+        let imageData = context2D.getImageData(0, 0, component.width(), component.height());
+
+        this.disk.uploadImage(imageData);
+        this.captuteStream(component, stream);
     }
 }

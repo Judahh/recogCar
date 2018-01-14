@@ -35,6 +35,11 @@ export class Disk extends AppObject implements Observer {
         _self.socketIo.emit('getSpace', data);
     }
 
+    public uploadImage(data) {
+        let _self = this;
+        _self.socketIo.emit('uploadImage', data);
+    }
+
     public uploadVideo(data) {
         let _self = this;
         _self.socketIo.emit('uploadVideo', data);

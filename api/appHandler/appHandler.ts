@@ -47,6 +47,10 @@ export class AppHandler extends BasicAppHandler {
         this.hardwareHandler.uploadVideo(video);
     }
 
+    public uploadImage(image) {
+        this.hardwareHandler.uploadImage(image);
+    }
+
     public getWifiConnections() {
         this.hardwareHandler.getWifiConnections();
     }
@@ -123,6 +127,7 @@ export class AppHandler extends BasicAppHandler {
 
 
         basicSocket.on('uploadVideo', (video) => { _self.uploadVideo(video); });
+        basicSocket.on('uploadImage', (image) => { _self.uploadImage(image); });
         basicSocket.on('getVideos', () => { _self.getVideos(); });
         basicSocket.on('subscribeDisk', () => { _self.subscribeDisk(basicSocket); });
 

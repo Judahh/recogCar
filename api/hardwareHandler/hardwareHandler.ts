@@ -32,7 +32,8 @@ export class HardwareHandler {
         this.wifi = new Wifi(parseInt(process.env.WIFI_REFRESH_DELAY, 10), this.handler);
         this.disk = new Disk(this.handler);
         openalpr.Start();
-        this.identify('/Users/Judah/Desktop/test.jpg');
+        console.log('VERSION', openalpr.GetVersion());
+        // this.identify('/Users/Judah/Desktop/test.jpg');
         // HANDLER SAMPLE
         // this.handler.addEvent(new Event(Operation.add, 'sample', 0));
         // this.handler.readArray('samples',(error, result: Array<any>)=>{});
@@ -68,6 +69,10 @@ export class HardwareHandler {
 
     public uploadVideo(video) {
         this.disk.uploadVideo(video);
+    }
+
+    public uploadImage(image) {
+        this.disk.uploadImage(image);
     }
 
     public getWifiConnections() {
