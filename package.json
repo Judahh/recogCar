@@ -61,7 +61,7 @@
     "is-online": "^7.0.0",
     "jsdom": "^11.5.1",
     "mocha": "^4.0.1",
-    "moment": "2.19.3",
+    "moment": "2.29.1",
     "node-openalpr": "^1.1.1",
     "node-wifi": "^2.0.2",
     "os-uptime": "^2.0.1",
