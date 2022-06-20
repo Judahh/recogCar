@@ -58,7 +58,7 @@
     "diskusage": "^0.2.4",
     "freeice": "^2.2.0",
     "gps": "^0.4.1",
-    "is-online": "^7.0.0",
+    "is-online": "^10.0.0",
     "jsdom": "^11.5.1",
     "mocha": "^4.0.1",
     "moment": "2.19.3",
