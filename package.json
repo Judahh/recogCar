@@ -60,7 +60,7 @@
     "gps": "^0.4.1",
     "is-online": "^7.0.0",
     "jsdom": "^11.5.1",
-    "mocha": "^4.0.1",
+    "mocha": "^11.0.1",
     "moment": "2.19.3",
     "node-openalpr": "^1.1.1",
     "node-wifi": "^2.0.2",
